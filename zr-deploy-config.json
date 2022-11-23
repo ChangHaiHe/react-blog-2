@@ -1,0 +1,19 @@
+[
+  {
+    "local": {
+      "buildCommand": "yarn build",
+      "distDir": "./build",
+      "distZip": "./dist.zip"
+    },
+    "server": {
+      "name": "昌海的服务器",
+      "host": "121.199.59.153",
+      "port": "22",
+      "username": "root",
+      "password": "Abcd1234",
+      "distDir": "/www/wwwroot",
+      "distZipName": "dist",
+      "bakeup": false
+    }
+  }
+]
