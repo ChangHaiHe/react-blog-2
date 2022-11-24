@@ -9,7 +9,7 @@ function App() {
         <p>
           昌海3s, Edit <code>src/App.js</code> and save to reload， 优秀的人,
           121
-          32333
+          2333
         </p>
         <a
           className="App-link"
