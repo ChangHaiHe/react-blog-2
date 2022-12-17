@@ -1,3 +1,18 @@
+@import "./styles/standard.less";
+
+:root {
+  --size: 40px;
+  --color:red;
+}
+
+ul{
+  padding: 0;
+  list-style-type:none
+}
+a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

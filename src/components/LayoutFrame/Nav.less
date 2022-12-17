@@ -1,0 +1,49 @@
+
+.nav {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  .inner {
+    margin: 0 auto;
+    display: flex;
+    width: 73%;
+    .menu {
+      width: 100%;
+      .item {
+        display: inline-block;
+        padding: 0 10px;
+        position: relative;
+        cursor: pointer;
+        .home-icon,.article-icon,.aixin-icon {
+          margin-right: 3px;
+        }
+        .aixin-icon {
+          position: relative;
+          top: 1px;
+         
+        }
+      }
+     
+    }
+    .right {
+      cursor: pointer;
+
+      display: inline-flex;
+    }
+
+
+  }
+
+  // background: var(--nav-bg);
+  //   box-shadow: 0.1rem 0.1rem 0.2rem var(--grey-9-a1);
+  //   text-shadow: 0 0 0.0625rem var(--grey-9-a1);
+  //   color: var(--text-color);
+}
+
+#nav.show {
+  background: var(--nav-bg);
+  box-shadow: 0.1rem 0.1rem 0.2rem var(--grey-9-a1);
+  text-shadow: 0 0 0.0625rem var(--grey-9-a1);
+  color: var(--text-color);
+}
