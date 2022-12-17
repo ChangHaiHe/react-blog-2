@@ -18,7 +18,7 @@ const server = {
   password: 'Abcd1234',     //用户登录密码
 }
 const baseDir = '/'//项目目录
-const basePath = '/www/wwwroot/dist'//项目部署目录
+const basePath = '/www/wwwroot/build'//项目部署目录
 const bakDirName = baseDir + '.bak' + moment(new Date()).format('YYYY-M-D-HH:mm:ss')//备份文件名
 const buildPath = path.resolve('./build')//本地项目编译后的文件目录
 /*********************************************************************************/

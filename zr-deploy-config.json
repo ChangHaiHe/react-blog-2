@@ -3,7 +3,7 @@
     "local": {
       "buildCommand": "yarn build",
       "distDir": "./build",
-      "distZip": "./dist.zip"
+      "distZip": "./build.zip"
     },
     "server": {
       "name": "昌海的服务器",
@@ -12,7 +12,7 @@
       "username": "root",
       "password": "Abcd1234",
       "distDir": "/www/wwwroot",
-      "distZipName": "dist",
+      "distZipName": "build",
       "bakeup": false
     }
   }
