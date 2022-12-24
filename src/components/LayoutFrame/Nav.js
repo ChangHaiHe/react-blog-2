@@ -15,7 +15,7 @@ const Nav = () => {
       <div id="nav" className="nav show">
         <div className="inner">
           <ul className="menu">
-            <Link to="/"> changhai</Link>
+            {/* <Link to="/"> changhai</Link> */}
             <Link to="/home" className="item">
               <HomeOutlined className="home-icon" /> 首页
             </Link>
